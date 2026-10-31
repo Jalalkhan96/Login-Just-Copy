@@ -210,3 +210,19 @@ body {
 .container.active .toggle-right {
     transform: translateX(200%);
 }
+/* Show/hide password toggle + validation message (script.js). */
+
+.container button.toggle-password {
+    padding: 4px 14px;
+    font-size: 11px;
+    margin-top: 0;
+    background-color: transparent;
+    color: #512da8;
+    border: 1px solid #512da8;
+}
+
+.container .form-error {
+    color: #c62828;
+    font-size: 13px;
+    margin: 8px 0 0;
+}
